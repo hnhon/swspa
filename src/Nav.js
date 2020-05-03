@@ -1,12 +1,22 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Nav() {
+    
+    const navStyle = {
+        color: 'white'
+    };
+
     return (
         <nav>
             <h3>logo</h3>
-            <ul>
-                <li>Home</li>
-                <li>Items</li>
+            <ul className='nav-links'>
+                <Link style={navStyle} to='/about'>
+                    <li>About</li>
+                </Link>
+                <Link style={navStyle} to='/items'>
+                    <li>Items</li>
+                </Link>
             </ul>
         </nav>
     );
