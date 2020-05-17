@@ -14,9 +14,9 @@ function About() {
         Single Page Application by react
         </p>
       <p>
-        Items Page display characters
+        Click Items for display <br/>
         Click on character name for further details
-        </p>
+      </p>
     </div>
   );
 }
