@@ -1,7 +1,7 @@
-Single Page App Practice
-Use react-route-dom
-BrowserRouter as Router for all routing behavior 
-Switch to limit routing
-Route to define path
-Link to link to routing
+Single Page App Practice <br>
+Use react-route-dom <br>
+BrowserRouter as Router for all routing behavior <br>
+Switch to limit routing <br>
+Route to define path <br>
+Link to link to routing <br>
 Match to get routing details/prams
